@@ -22,9 +22,9 @@ public class DieRollar {
             {
                 System.out.println("");
                 rolls++;
-                dieOne = generator.nextInt(5) + 1;
-                dieTwo = generator.nextInt(5) + 1;
-                dieThree = generator.nextInt(5) + 1;
+                dieOne = generator.nextInt(6) + 1;
+                dieTwo = generator.nextInt(6) + 1;
+                dieThree = generator.nextInt(6) + 1;
 
                 System.out.printf("%7d %7d %7d %7d %7d", rolls, dieOne, dieTwo, dieThree, dieOne + dieTwo + dieThree);;
             }while(dieOne != dieTwo || dieOne != dieThree);
